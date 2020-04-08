@@ -1,0 +1,130 @@
+.build
+    overflow: hidden
+    position: relative
+    +raleway
+    &__title
+        font-size: 45px
+        @media (max-width: 767px)
+            font-size: 38px
+        line-height: 73px
+        @media (max-width: 767px)
+            line-height: 65px
+        margin-bottom: 30px
+        +raleway
+        color: $darkblue
+        &::after
+            content: ''
+            display: block
+            height: 6px
+            background-color: $darkblue
+            width: 80px
+    &__img
+        width: 100%
+        height: 100%
+        @media (max-width: 1199px)
+            width: 1000px
+            height: 700px
+    &__block
+        background: rgba(255, 255, 255, 0.8)
+        padding: 30px 60px
+        @media (min-width: 1500px)
+            padding: 50px 70px
+        @media (max-width: 991px)
+            padding: 30px 40px
+        @media (max-width: 575px)
+            padding: 30px 40px 60px 40px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        border: 5px solid $darkblue
+        width: 95%
+        &-name
+            +raleway
+            font-weight: 600
+            font-size: 30px
+            @media (max-width: 767px)
+                font-size: 25px
+            line-height: 30px
+            color: $darkblue
+            margin-bottom: 20px
+            @media (max-width: 1199px)
+                margin-bottom: 40px
+            @media (max-width: 767px)
+                max-width: 230px
+        &-home
+            &__img
+                width: 100%
+                height: 100%
+                @media (max-width: 767px)
+                    width: 75%
+                    height: 100%
+                @media (max-width: 470px)
+                    width: 45%
+                    height: 100%
+            &__desc
+                margin-left: 40px
+                @media (max-width: 767px)
+                    margin-left: 0
+                    margin-top: 30px
+                &__item
+                    max-width: 400px
+                    font-size: 25px
+                    @media (max-width: 1199px)
+                        font-size: 23px
+                    @media (max-width: 991px)
+                        font-size: 21px
+                    @media (max-width: 767px)
+                        font-size: 16px
+                    line-height: 30px
+                    @media (max-width: 767px)
+                        line-height: 20px
+                    color: $darkblue
+                    margin-bottom: 40px
+                    @media (max-width: 991px)
+                        margin-bottom: 20px
+                    @media (max-width: 767px)
+                        margin-bottom: 20px
+                    &:last-child
+                        margin-bottom: 0
+        &-btn
+            @media (max-width: 767px)
+                display: none
+            @media (max-width: 1199px)
+                margin-left: 0
+            margin-left: 90px
+            margin-top: 20px
+            font-size: 30px
+            line-height: 65px
+            padding: 0 25px
+            border: none
+            background-color: $orange
+            box-shadow: 0px 4px 20px -5px #000000
+            &:active, &:focus
+                outline: none
+            &:hover
+                background-color: #D2A222
+        &-next
+            position: absolute
+            right: 27px
+            @media (max-width: 575px)
+                right: 8px
+            bottom: 20px
+            @media (max-width: 575px)
+                bottom: 10px
+            cursor: pointer
+        &-prev
+            position: absolute
+            width: 
+            right: 100px
+            @media (max-width: 575px)
+                right: 70px
+            bottom: 20px
+            @media (max-width: 575px)
+                bottom: 10px
+            cursor: pointer
+.swiper2
+    width: 630px
+    height: 330px
+    @media (max-width: 767px)
+        height: 250px

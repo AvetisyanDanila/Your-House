@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,500,700|Raleway:400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <header class="header" id="header">
+        <div class="container-fluid">
+
+            <div class="header-top d-flex flex-column flex-md-row justify-content-around align-items-center">
+                <nav class="header-top__nav d-block d-md-none d-flex flex-column">
+                    <ul class="header-top__nav-menu d-flex flex-column">
+                        <li class="header-top__nav-menu__item">
+                            <a href="#about">О нас</a>
+                        </li>
+                        <li class="header-top__nav-menu__item">
+                            <a href="#build__title">Услуги</a>
+                        </li>
+                        <li class="header-top__nav-menu__item">
+                            <a href="#examples">Примеры работ</a>
+                        </li>
+                    </ul>
+                    <div class="header-top__callback d-block d-md-none">
+                        <a href="tel:+88007000000" class="header-top__callback-number">8 (800) 700-00-00</a>
+                        <button class="header-top__callback-btn" id="callback-mobile">Заказать звонок</button>
+                    </div>
+                </nav>
+                <a href="#header">
+                    <div class="header-top__logo d-flex align-items-center">
+                        <img src="img/header/logo.svg" alt="Логотип">
+                        <h1 class="header-top__logo-text">YOUR HOUSE</h1>
+                    </div>
+                </a>
+                <nav class="header-top__nav d-none d-md-block">
+                    <ul class="header-top__nav-menu d-flex">
+                        <li class="header-top__nav-menu__item">
+                            <a href="#about">О нас</a>
+                        </li>
+                        <li class="header-top__nav-menu__item">
+                            <a href="#build__title">Услуги</a>
+                        </li>
+                        <li class="header-top__nav-menu__item">
+                            <a href="#examples">Примеры работ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-top__callback d-none d-md-block">
+                    <a href="tel:+88007000000" class="header-top__callback-number">8 (800) 700-00-00</a>
+                    <button class="header-top__callback-btn" id="callback">Заказать звонок</button>
+                </div>
+            </div>
+            <div class="menu-button d-block d-md-none"></div>
+
+        </div>
+        <div class="container">
+            <div class="header-content d-flex justify-content-center justify-content-xl-start">
+                <div class="header-content-left d-flex flex-column align-items-center">
+                    <div class="header-content__text d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="header-content__text-title">Построим Ваш загородный дом</h1>
+                        <h2 class="header-content__text-subtitle">7 лет строим дома и бани <br class="d-block d-md-none"> по всей России</h2>
+                    </div>
+                    <a href="#calculator"><button class="header-content__btn">Рассчитать стоимость</button></a>
+                </div>
+                <div class="header-content-right d-none d-xl-block">
+                    <img src="img/header/home.png" alt="Дом" class="header-content__img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+
+            <h1 class="about__title">О нас</h1>
+
+            <div class="d-flex flex-column flex-md-row">
+                <div class="about__block block1">
+                    <p class="about__block-text">Мы занимаемся строительством загородных домов и бань уже 7 лет. Поэтому Вы можете
+                        выбрать из проверенных проектов или сделать индивидуальный заказ.</p>
+                    <p class="about__block-text">Наши сотрудники спроектировали и построили более 300 домов и бань по всей России.
+                        Материалы для постройки производим на своем заводе, несем ответственность за их качество. Наша команда работает
+                        быстро и слаженно.</p>
+                    <p class="about__block-text">На вопросы о каждом этапе строительства Вашего загородного дома готовы ответить наши
+                        менеджеры. Они на связи 24/7.</p>
+                </div>
+                
+                <div class="about__block block2">
+                    <div class="about__block-item d-flex align-items-center">
+                        <img src="img/about/quality.svg" alt="Качество" class="about__block-item__img">
+                        <p class="about__block-item__text">Только качественные материалы со своего завода</p>
+                    </div>
+                    <div class="about__block-item d-flex align-items-center">
+                        <img src="img/about/people.svg" alt="Сотрудники" class="about__block-item__img">
+                        <p class="about__block-item__text">Команда сотрудников с большим опытом</p>
+                    </div>
+                    <div class="about__block-item d-flex align-items-center">
+                        <img src="img/about/truck.svg" alt="Доставка" class="about__block-item__img">
+                        <p class="about__block-item__text">За 1 неделю доставляем материалы <br class="d-none d-md-block"> в любую точку России</p>
+                    </div>
+                    <div class="about__block-item d-flex align-items-center">
+                        <img src="img/about/child.svg" alt="Мат.капитал" class="about__block-item__img">
+                        <p class="about__block-item__text">Работаем с материнским капиталом</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <h1 class="build__title" id="build__title">Построим для вас</h1>
+    </div>
+    <section class="build" id="build">
+        <img src="img/build/homebg.jpg" alt="Дом" class="build__img">
+
+        <div class="container build__block">
+            <div class="swiper-container swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h1 class="build__block-name">Одноэтажный дом из бруса</h1>
+                        <div class="build__block-home d-flex flex-column flex-md-row align-items-center">
+                            <div class="swiper-container swiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/build/home1.jpg" alt="Дом №1" class="build__block-home__img">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/build/home1plan.png" alt="Дом №1" class="build__block-home__img">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="build__block-home__desc">
+                                <li class="build__block-home__desc__item">
+                                    Небольшой дом, подойдет даже для маленького участка
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Время постройки: 0т 5 до 10 рабочих дней
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Жилая площадь: от 15 кв.м
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Оплата: без предоплаты
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1 class="build__block-name">Двухэтажный дом из бруса</h1>
+                        <div class="build__block-home d-flex flex-column flex-md-row align-items-center">
+                            <div class="swiper-container swiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/build/home2.jpg" alt="Дом №2" class="build__block-home__img">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/build/home2plan.png" alt="Дом №2" class="build__block-home__img">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="build__block-home__desc">
+                                <li class="build__block-home__desc__item">
+                                >Комфортный дом, подходящий для долгого отдыха вдали от суеты</p>
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Время постройки: От 8 до 20 рабочих дней
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Жилая площадь: от 33 кв.м
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Оплата: без предоплаты
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1 class="build__block-name">Баню из бруса</h1>
+                        <div class="build__block-home d-flex flex-column flex-md-row align-items-center">
+                            <div class="swiper-container swiper2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/build/home3.jpg" alt="Дом №3" class="build__block-home__img">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/build/home3plan.png" alt="Дом №3" class="build__block-home__img">
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="build__block-home__desc">
+                                <li class="build__block-home__desc__item">
+                                    Баня нужна, чтобы отдыхать с пользой для здоровья
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Время постройки: 0т 5 до 15 рабочих дней
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Жилая площадь: от 15 кв.м
+                                </li>
+                                <li class="build__block-home__desc__item">
+                                    Оплата: без предоплаты
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#calculator"><button class="build__block-btn">Рассчитать стоимость</button></a>
+            <img src="img/build/arrow-prev.svg" alt="Стрелочка назад" class="build__block-prev">
+            <img src="img/build/arrow-next.svg" alt="Стрелочка вперёд" class="build__block-next">
+            </div>
+        </div>
+    </section>
+
+    <section id="examples" class="examples">
+        <div class="container">
+            <h1 class="examples__title">Примеры работ</h1>
+            <div class="examples__block">
+                <div class="swiper-container swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/examples/home1.jpg" alt="Дом №1" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home2.jpg" alt="Дом №2" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home3.jpg" alt="Дом №3" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home4.jpg" alt="Дом №4" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home5.jpg" alt="Дом №5" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home6.jpg" alt="Дом №6" class="swiper3-img"></div>
+                    </div>
+                </div>
+                <div class="swiper-container swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/examples/home7.jpg" alt="Дом №6" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home8.jpg" alt="Дом №6" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home9.jpg" alt="Дом №6" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home10.jpg" alt="Дом №6" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home11.jpg" alt="Дом №6" class="swiper3-img"></div>
+                        <div class="swiper-slide"><img src="img/examples/home12.jpg" alt="Дом №6" class="swiper3-img"></div>
+                    </div>
+                </div>
+                <div class="examples__block-arrows d-flex justify-content-between">
+                    <img src="img/examples/prev.svg" alt="Назад" class="examples__block-arrow examples__block-arrow-prev">
+                    <img src="img/examples/next.svg" alt="Вперёд" class="examples__block-arrow examples__block-arrow-next">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h1 class="questions__title">Часто задаваемые вопросы</h1>
+    </div>
+    <section class="questions" id="questions">
+        <img src="img/questions/home.jpg" alt="Дом" class="questions__img">
+        <div class="container questions__block">
+            <div class="questions__block__item">
+                <button class="questions__block__btn">От чего зависит стоимость постройки?</button>
+                <div class="questions__block__text">
+                    <p class="questions__block__text-block">
+                        Стоимость постройки зависит от нескольких факторов: <br>
+
+                        1) Дом строится по индивидуальному заказу или выбирается <br>
+                        из наших вариантов <br>
+                        2) Стоимость доставки материалов к месту строительства <br>
+                        (рассчитывается отдельно) <br>
+                        3)Площадь и этажноть дома <br>
+                        4)Выполняется ли отделка компанией “YOUR HOUSE” <br>
+
+                        Скидки до 20% на дома с отделкой!
+                    </p>
+                </div>
+            </div>
+            <div class="questions__block__item">
+                <button class="questions__block__btn">В какие сроки будет построен дом?</button>
+                <div class="questions__block__text">
+                    <p class="questions__block__text-block">
+                        Сроки постройки рассчитываются инивидуально, в <br>
+                        среднем одноэтажный дом из бруса строится от 5 до 15 <br>
+                        рабочих дней, двухэтажый - от 8 до 20 рабочих дней. Баня <br>
+                        (в зависимости от сложности) - от 5 до 15 рабочих дней. <br>
+                        <br>
+                        Мы обеспечиваем быструю доставку материалов, а  <br>
+                        строители делают свою работу качественно и в срок.
+                    </p>
+                </div>
+            </div>
+            <div class="questions__block__item">
+                <button class="questions__block__btn">Оплата</button>
+                <div class="questions__block__text">
+                    <p class="questions__block__text-block">
+                        Оплата происходит в 2 этапа: <br>
+                        1) 30% всей суммы после доставки материалов  <br>
+                        2) 70% после того, как Вы осмотрите дом и убедитесь, что <br>
+                        он построен на совесть  <br>
+                        <br>
+                        Работаем без предоплаты, оплата по факту выполненой работы <br>
+                    </p>
+                </div>
+            </div>
+            <div class="questions__block__item">
+                <button class="questions__block__btn">Доставка</button>
+                <div class="questions__block__text">
+                    <p class="questions__block__text-block">
+                        Доставляем материалы со своего произвоства
+                        (Новогородская область) по всей России. Сроки доставки 
+                        зависят от того, насколько далеко от нашего производства 
+                        расположен Ваш участок. В среднем доставка занимает 2-3 
+                        рабочих дня, максимальный срок ожидания - неделя. <br>
+                        <br>
+                        Материалы для Вашего дома упакованы в картон, поэтому 
+                        при доставке не повреждаются.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator" id="calculator">
+        <div class="container">
+            <h1 class="calculator__title">Калькулятор расчета стоимости</h1>
+            <div class="calculator__content d-flex justify-content-between">
+                <form action="mail2.php" method="POST" class="calculator__form">
+                    <span class="calculator__form-fieldname">Тип строения</span>
+                    <fieldset class="calculator__form-radio">
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="тип" value="Дом из бруса">
+                            <span class="calculator__form-radio__text">Дом из бруса</span>
+                        </label>
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="тип" value="Баня из бруса">
+                            <span class="calculator__form-radio__text m-0">Баня из бруса</span>
+                        </label>
+                    </fieldset>
+                    <span class="calculator__form-fieldname">Площадь</span>
+                    <fieldset class="calculator__form-radio">
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="площадь" value="до 100 кв.м">
+                            <span class="calculator__form-radio__text">до 100 кв.м</span>
+                        </label>
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="площадь" value="100-150 кв.м">
+                            <span class="calculator__form-radio__text">100-150 кв.м</span>
+                        </label><label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="площадь" value="150-200 кв.м">
+                            <span class="calculator__form-radio__text">150-200 кв.м</span>
+                        </label>
+                        </label><label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="площадь" value="более 200 кв.м">
+                            <span class="calculator__form-radio__text m-0">более 200 кв.м</span>
+                        </label>
+                    </fieldset>
+                    <span class="calculator__form-fieldname">Этажность</span>
+                    <fieldset class="calculator__form-radio">
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="этажность" value="1 этаж">
+                            <span class="calculator__form-radio__text">1 этаж</span>
+                        </label>
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="этажность" value="2 этажа">
+                            <span class="calculator__form-radio__text">2 этажа</span>
+                        </label><label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="этажность" value="более 2х этажей">
+                            <span class="calculator__form-radio__text m-0">более 2х этажей</span>
+                        </label>
+                    </fieldset>
+                    <span class="calculator__form-fieldname">Отделка</span>
+                    <fieldset class="calculator__form-radio">
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="отделка" value="Да">
+                            <span class="calculator__form-radio__text">Да</span>
+                        </label>
+                        <label class="calculator__form-radio__label">
+                            <input type="radio" class="calculator__form-radio__input" name="отделка" value="Нет">
+                            <span class="calculator__form-radio__text m-0">Нет</span>
+                        </label>
+                    </fieldset>
+                    <fieldset class="calculator__form-bottom">
+                        <input type="text" class="calculator__form-bottom__input" name="user_name" placeholder="Имя" pattern="^[А-Яа-яЁё\s]+$" required>
+                        <input type="text" class="calculator__form-bottom__input" name="user_phone" placeholder="+7-999-999-99-99" pattern="\+7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                        <input type="email" class="calculator__form-bottom__input" name="user_email" placeholder="E-mail" required>
+                    </fieldset>
+                    <button type="submit" class="calculator__form__btn">Рассчитать стоимость</button>
+                </form>
+                <div class="calculator__img d-none d-md-flex flex-column">
+                    <img src="img/calculator/home.png" alt="Дом" class="calculator__img-home">
+                    <img src="img/calculator/cloudbig.svg" alt="Облако" class="calculator__img-1">
+                    <img src="img/calculator/cloudsmall.svg" alt="Облако" class="calculator__img-2">
+                    <img src="img/calculator/cloudsmaller.svg" alt="Облако" class="calculator__img-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__content d-flex justify-content-between align-items-center">
+                <a href="#header">
+                    <div class="footer__logo d-flex align-items-center">
+                        <img src="img/footer/logo.svg" alt="Логотип">
+                        <h1 class="footer__logo-text">YOUR HOUSE</h1>
+                    </div>
+                </a>
+                <div class="footer__socials d-flex align-items-center">
+                    <h1 class="footer__socials__title d-none d-md-block">Мы в социальных сетях:</h1>
+                    <a href="#"><img src="img/footer/facebook.svg" alt="facebook" class="footer__socials__img"></a>
+                    <a href="#"><img src="img/footer/vk.svg" alt="vk" class="footer__socials__img"></a>
+                    <a href="#"><img src="img/footer/twitter.svg" alt="twitter" class="footer__socials__img"></a>
+                </div>
+                <div class="footer__links d-none d-lg-flex align-items-center">
+                    <a href="#" class="footer__link footer__link-1">Политика конфидециальности</a>
+                    <a href="#" class="footer__link footer__link-2">Пользовательское соглашение</a>
+                </div>
+            </div>
+            <div class="footer__links d-flex flex-column justify-content-center align-items-center d-lg-none">
+                <a href="#" class="footer__link footer__link-1">Политика конфидециальности</a>
+                <a href="#" class="footer__link footer__link-2">Пользовательское соглашение</a>
+            </div>
+            <span class="copyright">© 2020</span>
+        </div>
+    </footer>
+
+    <div class="header-modal d-none" id="modal">
+        <div class="header-modal-dialog">
+            <button class="header-modal-dialog__close" id="close">&times;</button>
+            <form action="mail1.php" method="POST" class="header-modal-dialog-form d-flex flex-column justify-content-center align-items-center">
+                <input type="text" class="header-modal-dialog-form__input" name="user_name" placeholder="Имя" pattern="^[А-Яа-яЁё\s]+$" required>
+                <input type="text" class="header-modal-dialog-form__input" name="user_phone" placeholder="+7-999-999-99-99" pattern="\+7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                <input type="email" class="header-modal-dialog-form__input" name="user_email" placeholder="E-mail" required>
+                <button type="submit" class="header-modal-dialog-form__btn">Заказать звонок</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

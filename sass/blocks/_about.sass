@@ -1,0 +1,55 @@
+.about
+    overflow: hidden
+    color: $darkblue
+    margin-bottom: 100px
+    @media (max-width: 575px)
+        margin-bottom: 0px
+    .block1
+        margin-right: 20px
+    &__title
+        font-size: 45px
+        @media (max-width: 767px)
+            font-size: 38px
+        @media (max-width: 767px)
+            line-height: 65px
+        line-height: 73px
+        margin-bottom: 30px
+        +noto
+        &::after
+            content: ''
+            display: block
+            height: 6px
+            background-color: $darkblue
+            width: 80px
+    &__block
+        width: 50%
+        @media (max-width: 767px)
+            width: 100%
+            margin-bottom: 70px
+        &-text
+            font-size: 24px
+            @media (max-width: 1199px)
+                font-size: 20px
+            @media (max-width: 575px)
+                font-size: 20px
+            line-height: 45px
+            margin-bottom: 25px
+            +raleway
+        &-item
+            margin-bottom: 55px
+            img
+                width: 95px
+                @media (max-width: 575px)
+                    width: 80px
+                height: 95px
+                @media (max-width: 575px)
+                    height: 80px
+                margin-right: 25px
+            &__text
+                font-size: 24px
+                @media (max-width: 1199px)
+                    font-size: 20px
+                @media (max-width: 575px)
+                    font-size: 20px
+                line-height: 45px
+                +raleway 

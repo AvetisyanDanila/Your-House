@@ -1,0 +1,94 @@
+.questions
+    position: relative
+    overflow: hidden
+    &__title
+        font-size: 45px
+        @media (max-width: 767px)
+            font-size: 38px
+        line-height: 73px
+        @media (max-width: 767px)
+            line-height: 65px
+        margin-bottom: 30px
+        +raleway
+        color: $darkblue
+        &::after
+            content: ''
+            display: block
+            height: 6px
+            background-color: $darkblue
+            width: 80px
+    &__img
+        width: 100%
+        height: 100%
+        @media (max-width: 991px)
+            width: 900px
+            height: 600px
+        @media (max-width: 1199px)
+            height: 600px
+    &__block
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        &__item
+            border: 4px solid #6A8CE0
+            width: 70%
+            @media (max-width: 767px)
+                width: 100%
+            margin: auto
+            margin-bottom: 50px
+            &:last-child
+                margin-bottom: 0
+        &__btn
+            border: 1px solid #6A8CE0
+            background-color: white
+            color: $darkblue
+            cursor: pointer
+            padding: 20px
+            width: 100%
+            text-align: left
+            outline: none
+            transition: 0.4s
+            @media (max-width: 575px)
+                font-size: 14px
+            &:hover
+                background-color: #eee
+            &:after
+                content: ''
+                font-size: 13px
+                float: right
+                margin-left: 5px
+                width: 30px
+                @media (max-width: 575px)
+                    width: 20px
+                height: 30px
+                @media (max-width: 575px)
+                    height: 20px
+                background-image: url(../img/questions/plus.svg)
+                background-size: 100% 100%
+        &__text
+            +raleway
+            font-size: 20px
+            line-height: 35px
+            color: $darkblue
+            padding: 20px
+            background-color: white
+            max-height: 0px
+            overflow-y: scroll 
+            display: none
+            transition: max-height 0.2s ease-out
+            height: 130px
+            &-block 
+                margin: 0 auto
+                max-width: 80%
+    .active:after 
+        background-image: url(../img/questions/minus.png)
+        width: 30px
+        margin-top: 7px
+        @media (max-width: 575px)
+            margin-top: 3px
+        @media (max-width: 575px)
+            width: 20px
+        height: 6px
+        float: right
+        margin-left: 5px
